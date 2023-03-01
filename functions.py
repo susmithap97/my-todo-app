@@ -1,6 +1,5 @@
 
-#FILEPATH = "todos.txt"
-FILEPATH = "/Users/susmithapalavajjhala/Documents/Python_Projects_Learn/venv/todos.txt"
+FILEPATH = "todos.txt"
 def get_todos(filepath=FILEPATH):
     with open(filepath, 'r') as file_local:
         todos_local = file_local.readlines()
